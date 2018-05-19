@@ -12,7 +12,7 @@
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel",
     "build": "./node_modules/.bin/babel src -d dist",
-    "test":"mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+    "test":"mocha --reporter progress BuildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch":"npm run test -- --watch"
   },
   "author": "Cory House",
